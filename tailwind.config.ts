@@ -11,7 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        alphaorange: "#ec5c29"
+        alphaorange: {
+          600: "#ec5c29",
+          500: "#ed6c3e"
+        }
       }
     },
   },
