@@ -1,16 +1,8 @@
-export type Project = {
-    title: string;
-    desciption: string;
-    tags: string[];
-    contributors: string[];
-    fundingGoal: number;
-    fundsRaised: number;
-    campaignExpiresDate: Date | null;
-    totalFunders: number;
-}
+import { Project } from "@/app/types/project.type";
 
 export const projects: Project[] = [
     {
+        id: "uniquestring1",
         title: "Space Laser for Weather Control",
         desciption: "This will be a giant space based laser that can make clouds or cause draughts or some such.",
         tags: ['climate-change'],
@@ -21,6 +13,7 @@ export const projects: Project[] = [
         totalFunders: 10
     },
     {
+        id: "uniquestring2",
         title: "Geothermal Reactor",
         desciption: "Harness the energy of the earth bro",
         tags: ['clean-energy'],
@@ -31,6 +24,7 @@ export const projects: Project[] = [
         totalFunders: 110
     },
     {
+        id: "uniquestring3",
         title: "Nuclear Powered Fuel Cell",
         desciption: "Cars aren't Dangerous Enough",
         tags: ['climate-change'],
@@ -41,6 +35,7 @@ export const projects: Project[] = [
         totalFunders: 10
     },
     {
+        id: "uniquestring4",
         title: "AI applications in Medicine",
         desciption: "Getting an MD is super expensive, let's just code one instead",
         tags: ['clean-energy'],
@@ -51,6 +46,7 @@ export const projects: Project[] = [
         totalFunders: 110
     },
     {
+        id: "uniquestring5",
         title: "Artificial Thyroid Glands",
         desciption: "These dudes are unreliable",
         tags: ['climate-change'],
@@ -61,6 +57,7 @@ export const projects: Project[] = [
         totalFunders: 10
     },
     {
+        id: "uniquestring6",
         title: "Archeological Exploration of Montana",
         desciption: "We are looking for some super sweet dino bones",
         tags: ['clean-energy'],
