@@ -1,5 +1,5 @@
-import ProjectCard from "../components/project-card";
-import { Project } from "../types/project.type";
+import ProjectCard from "../../components/project-card";
+import { Project } from "../../types/project.type";
 
 const ProjectsList = ({projects}: {projects: Project[]}) => {
     return (
